@@ -1,0 +1,20 @@
+
+@import "_normalize.scss";
+@import url(//db.onlinewebfonts.com/c/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue);
+
+@import "abstracts/var";
+
+@import "components/table";
+@import "components/symbol";
+@import "components/content";
+@import "components/footer";
+
+body{
+    width: 1280px;
+    font-family: 'Helvetica';
+}
+*{
+    color: $primary-color;
+    font-size: 24px;
+}
+

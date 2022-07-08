@@ -1,0 +1,43 @@
+.line{
+    position: relative;
+}
+.symbol-x-front {
+    &::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    border: 1px solid $primary-color;
+    transform: translateY(-50%) rotate(45deg);
+    left: 100px;
+    }
+    &::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    border: 1px solid $primary-color;
+    transform: translateY(-50%) rotate(-45deg);
+    left: 100px;
+    }     
+}
+.symbol-x-end {
+    &::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    border: 1px solid $primary-color;
+    transform: translateY(-50%) rotate(45deg);
+    left: 410px;
+    }
+    &::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 8px;
+    border: 1px solid $primary-color;
+    transform: translateY(-50%) rotate(-45deg);
+    left: 410px;
+    }     
+}

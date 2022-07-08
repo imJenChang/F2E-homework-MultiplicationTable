@@ -1,0 +1,28 @@
+.contentBox{
+    width: 280px;
+    height: 246px;
+    background-color: $contentBox-color;
+    border-radius: $contentBox-borderRadius;
+    box-shadow: $contentBox-boxShadow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 60px 40px;
+    margin-bottom: 40px;
+    .contentNumTitle{
+        display: flex;
+        text-shadow: 4px 3px 0px $secondary-color;
+        font-size: 128px;
+        font-weight: bold;
+        line-height: 118px;
+        padding-left: 15px;
+        width: 140px;
+    }
+    .contentNum{
+        display: inline-block;
+        letter-spacing: 0.05em;
+        margin-top: unset;
+        list-style: none;
+        line-height: 40px;
+    }
+}    
